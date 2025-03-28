@@ -127,6 +127,23 @@ a:hover {
   align-items: center;
 }
 
+.header__title {
+  position: relative;
+  padding-bottom: 121px;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  color: #D4C17F;
+  font-weight: 700;
+}
+
+.header__title-icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
 .nav {
   font-size: 14px;
 }
@@ -134,4 +151,23 @@ a:hover {
 .nav__list {
   display: flex;
   column-gap: 40px;
+}
+
+.info {
+  position: relative;
+  font-size: 18px;
+  padding-left: 35px;
+}
+.info::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 21px;
+  height: 21px;
+  background-image: url(./../img/header/map.svg);
+  background-repeat: no-repeat;
+}
+.info--tel::before {
+  background-image: url(./../img/header/phone.svg);
 }/*# sourceMappingURL=main.css.map */
