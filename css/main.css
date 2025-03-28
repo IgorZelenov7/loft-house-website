@@ -106,9 +106,12 @@ a:hover {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   padding: 0 15px;
   margin-inline: auto;
+}
+.container--small {
+  max-width: 840px;
 }
 
 .text-rigth {
@@ -195,4 +198,28 @@ a:hover {
 }
 .info--map::before {
   background-image: url(./../img/header/map.svg);
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits__row {
+  display: flex;
+  column-gap: 70px;
+}
+
+.benefits__item {
+  text-align: center;
+}
+
+.benefits__item-img {
+  margin-bottom: 53px;
+}
+
+.benefits__item-text {
+  font-size: 20px;
+  line-height: 1.35;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */

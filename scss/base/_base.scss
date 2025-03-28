@@ -18,9 +18,13 @@ a {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     padding: 0 15px;
     margin-inline: auto;
+
+    &--small {
+        max-width: 840px;
+    }
 }
 
 .text-rigth {
