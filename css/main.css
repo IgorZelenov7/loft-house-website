@@ -320,4 +320,9 @@ a:hover {
 }
 .cta__text p + p {
   margin-top: 1em;
+}
+
+.form__input {
+  width: 255px;
+  height: 50px;
 }/*# sourceMappingURL=main.css.map */
