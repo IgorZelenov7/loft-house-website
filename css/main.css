@@ -145,6 +145,10 @@ a:hover {
   font-weight: 700;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -169,7 +173,7 @@ a:hover {
 
 .header__top-row--mobile {
   position: fixed;
-  z-index: 9;
+  z-index: 99;
   left: 0px;
   top: 0px;
   width: 100%;
