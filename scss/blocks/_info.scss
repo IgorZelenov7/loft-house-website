@@ -1,26 +1,27 @@
 .info {
-    position: relative;
-    font-size: 18px;
-    
-    &--map, &--tel {
-        padding-left: 35px;
+  position: relative;
+  font-size: 18px;
 
-        &::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 21px;
-            height: 21px;
-            background-repeat: no-repeat;
-        }
-    }
+  &--map,
+  &--tel {
+    padding-left: 35px;
 
-    &--tel::before {
-        background-image: url(./../img/header/phone.svg);
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 21px;
+      height: 21px;
+      background-repeat: no-repeat;
     }
+  }
 
-    &--map::before {
-        background-image: url(./../img/header/map.svg);
-    }
+  &--tel::before {
+    background-image: url(./../img/header/phone.svg);
+  }
+
+  &--map::before {
+    background-image: url(./../img/header/map.svg);
+  }
 }

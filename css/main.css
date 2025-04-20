@@ -14,7 +14,9 @@
 }
 
 /* Links */
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -23,16 +25,28 @@ a:hover {
 }
 
 /* Common */
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
   list-style: none;
 }
 
@@ -40,7 +54,8 @@ img {
   vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -50,7 +65,10 @@ address {
 }
 
 /* Form */
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -61,7 +79,8 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type=submit] {
+button,
+input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
@@ -69,8 +88,10 @@ button, input[type=submit] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
   outline: none;
 }
 
@@ -87,23 +108,23 @@ legend {
   display: block;
 }
 
-input[type=file] {
+input[type="file"] {
   max-width: 100%;
 }
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #242B33;
-  color: #FFFFFF;
+  background-color: #242b33;
+  color: #ffffff;
   font-size: 16px;
 }
 
 a {
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 0.2s ease-in;
 }
 a:hover {
-  color: #D4C17F;
+  color: #d4c17f;
 }
 
 .container {
@@ -137,7 +158,7 @@ a:hover {
 .title-2 {
   font-size: 36px;
   font-family: "Playfair Display", serif;
-  color: #D4C17F;
+  color: #d4c17f;
   font-weight: 700;
 }
 @media screen and (max-width: 959px) {
@@ -147,7 +168,7 @@ a:hover {
 }
 
 .link-bold {
-  color: #D4C17F;
+  color: #d4c17f;
   font-weight: 700;
 }
 
@@ -162,7 +183,13 @@ a:hover {
   padding-top: 30px;
   padding-bottom: 74px;
   min-height: 840px;
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(./../img/header/header-bg.jpg) lightgray 50%/cover no-repeat;
+  background: linear-gradient(
+      180deg,
+      #242b33 11.98%,
+      rgba(45, 52, 60, 0.38) 51.04%,
+      #242b33 92.19%
+    ),
+    url(./../img/header/header-bg.jpg) lightgray 50% / cover no-repeat;
 }
 @media screen and (max-width: 959px) {
   .header {
@@ -184,7 +211,7 @@ a:hover {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-color: #242B33;
+  background-color: #242b33;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -228,7 +255,7 @@ a:hover {
   text-align: center;
   font-size: 48px;
   font-family: "Playfair Display", serif;
-  color: #D4C17F;
+  color: #d4c17f;
   font-weight: 700;
 }
 @media screen and (max-width: 959px) {
@@ -273,10 +300,12 @@ a:hover {
   position: relative;
   font-size: 18px;
 }
-.info--map, .info--tel {
+.info--map,
+.info--tel {
   padding-left: 35px;
 }
-.info--map::before, .info--tel::before {
+.info--map::before,
+.info--tel::before {
   content: "";
   position: absolute;
   left: 0;
@@ -389,7 +418,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .card::before {
   content: "";
@@ -399,7 +428,7 @@ a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+  background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242b33 100%);
 }
 .card::after {
   opacity: 0;
@@ -414,7 +443,7 @@ a:hover {
   transition: all 0.2s ease-in;
 }
 .card:hover {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .card:hover::after {
   opacity: 1;
@@ -449,7 +478,14 @@ a:hover {
 
 .cta {
   padding: 180px 0;
-  background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%), url("./../img/cta/cta-bg.jpg"), #c4c4c4;
+  background: linear-gradient(
+      180deg,
+      #242b33 10.42%,
+      rgba(36, 43, 51, 0) 50.52%,
+      #242b33 90.1%
+    ),
+    linear-gradient(0deg, rgba(36, 43, 51, 0.9) 0%, rgba(36, 43, 51, 0.9) 100%),
+    url("./../img/cta/cta-bg.jpg"), #c4c4c4;
 }
 @media screen and (max-width: 959px) {
   .cta {
@@ -500,12 +536,12 @@ a:hover {
   padding: 12px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
   transition: all 0.2s ease-in;
 }
 .form__input::placeholder {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 .form__input:focus {
   background-color: rgba(255, 255, 255, 0.3);
@@ -513,7 +549,7 @@ a:hover {
 
 .form__privacy {
   font-size: 13px;
-  color: #E7E7E7;
+  color: #e7e7e7;
   text-align: center;
   line-height: 16px;
 }
@@ -521,8 +557,8 @@ a:hover {
 .form__btn {
   height: 50px;
   padding: 12px 53px;
-  background-color: #D4C17F;
-  color: #FFFFFF;
+  background-color: #d4c17f;
+  color: #ffffff;
   font-weight: 700;
   line-height: 27px;
   text-align: center;
@@ -608,7 +644,7 @@ a:hover {
 }
 
 .footer {
-  background-color: #2D343C;
+  background-color: #2d343c;
   padding-top: 72px;
   padding-bottom: 51px;
   font-size: 14px;
@@ -750,46 +786,48 @@ a:hover {
   transform: rotate(-45deg);
 }
 
-[class*=copyrights-pane] {
+[class*="copyrights-pane"] {
   /* display: none !important; */
   opacity: 0;
   transition: opacity 0.2s ease-in;
 }
 
-.map:hover [class*=copyrights-pane] {
+.map:hover [class*="copyrights-pane"] {
   opacity: 1;
 }
 
 /* Создать свою карту */
-[class*=gototech] {
+[class*="gototech"] {
   display: none !important;
 }
 
-[class*=ground-pane] {
+[class*="ground-pane"] {
   filter: grayscale(1) sepia(10%);
 }
 
 /* Baloon */
-[class*=balloon__layout], [class*=balloon__content] {
+[class*="balloon__layout"],
+[class*="balloon__content"] {
   background-color: #242b33 !important;
   color: #fff !important;
 }
 
-[class*=balloon__tail]::after {
+[class*="balloon__tail"]::after {
   background-color: #242b33 !important;
 }
 
-[class*=balloon_layout_panel] {
+[class*="balloon_layout_panel"] {
   background-color: #242b33 !important;
 }
 
-[class*=balloon__layout], [class*=balloon__content] a {
-  color: #D4C17F !important;
+[class*="balloon__layout"],
+[class*="balloon__content"] a {
+  color: #d4c17f !important;
 }
 
-[class*=balloon__close-button] {
+[class*="balloon__close-button"] {
   background: url("./../img/map/cross.svg") 50% no-repeat !important;
   width: 15px !important;
   height: 15px !important;
   margin: 10px 7px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
