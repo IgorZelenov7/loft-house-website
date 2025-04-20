@@ -532,6 +532,7 @@ a:hover {
 }
 
 .video {
+  overflow: hidden;
   position: relative;
   text-align: center;
 }
