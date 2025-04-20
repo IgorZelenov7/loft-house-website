@@ -21,7 +21,7 @@ phoneInputs.forEach((input) => {
   });
 });
 
-/* Yandex Map */
+// Yandex Map
 
 // Функция ymaps.ready() будет вызвана, когда
 // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
