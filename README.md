@@ -13,4 +13,7 @@
 - Кастомной Яндекс.Картой
 - Оптимизированной загрузкой
 
-- [Перейти к демо-версии →](https://igorzelenov7.github.io/loft-house-website/)
+
+
+
+[Перейти к демо-версии →](https://igorzelenov7.github.io/loft-house-website/)
